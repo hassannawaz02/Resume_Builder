@@ -1,0 +1,134 @@
+
+#body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: azure;
+    
+}
+
+#heading{
+    text-align: center;
+    color: #273e54;
+}
+#heading1{
+    text-align: center;
+    color: #205890;
+}
+
+#resume-builder{
+    max-width: 900px;
+    margin: auto ;
+    background-color: #f0f4f8;
+    box-shadow: 0 4px 8px rgba( 0, 0, 0,o.5);
+    padding: 20px;
+ }
+
+ fieldset{
+    border: 2px solid;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 10px;
+    border-radius: 8px;
+ }
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+input,textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(124, 138, 133, 0);
+    border-radius: 15px;
+    border-color: rgba(172, 255, 47, 0.758);
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+
+button:hover{
+    background-color: rgb(153, 225, 46);
+
+
+}
+
+.container{
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+.profileimg{
+    border: 2px solid black;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.img-input {
+    display: block;
+    width: 200px;
+    background: none;
+    padding: 12px;
+    border: 2px solid rgb(33, 114, 213);
+    color: rgb(33, 114, 213);
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#input-image {
+    display: none;
+}
+
+.img-input:hover {
+    background-color: rgb(33, 114, 213);
+    border-color: rgb(33, 114, 213);
+    color: aliceblue;
+}
+.CVoutput{
+    max-width: 600px;
+    margin: auto;
+    background-color: #b7babe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, o.5);
+    padding: 20px;
+}
+.CVtemplate {
+    margin-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.CVtemplate h2 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+}
+
+.CVtemplate p {
+    font-size: 25px;
+    padding: 4px;
+}
+
+.CVtemplate h3 {
+    margin: 4px;
+    font-size: 27px;
+}
+
